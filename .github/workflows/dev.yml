@@ -1,8 +1,8 @@
-name: Build & deploy
+name: DEV - Build & deploy
 on:
   push:
     branches:
-      - main
+      - dev
 jobs:
   build:
     name: Build
